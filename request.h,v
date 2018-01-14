@@ -1,0 +1,32 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2018.01.10.16.08.17;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@Structure which contains pid, op1, op2, op.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@typedef struct request
+{
+	pid_t pid;
+	char op;
+	int op1;
+	int op2;
+}request;
+@

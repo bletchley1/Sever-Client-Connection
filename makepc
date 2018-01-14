@@ -1,0 +1,6 @@
+#! /bin/bash
+
+make add
+make sub
+make mul
+make div

@@ -1,0 +1,5 @@
+#! /bin/bash
+
+make rc1
+make rc2
+make rc3
