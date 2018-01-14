@@ -1,0 +1,16 @@
+#! /bin/bash
+
+for file in $(ls *.h) $(ls *.c)
+do
+        ci $file
+done
+
+for file in $(ls *.h,v) $(ls *.c,v)
+do
+        co $file
+done
+
+for file in $(ls *.h) $(ls *.c)
+do
+        co -l $file
+done

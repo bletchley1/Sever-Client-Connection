@@ -1,0 +1,32 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2018.01.10.16.06.20;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@Contains all required library functions.
+Or, it contains all header files.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include<stdio.h>
+#include<stdlib.h>
+#include<unistd.h>
+#include<fcntl.h>
+#include<sys/stat.h>
+#include<sys/wait.h>
+@
